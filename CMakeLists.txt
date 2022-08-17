@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(Projekt_Zoo)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Projekt_Zoo main.cpp Lod.cpp Lod.h Lokace/Hlavicka/Lokace.cpp Lokace/Hlavicka/Lokace.h Lokace/Hlavicka/Lokace_Builder.cpp Lokace/Hlavicka/Lokace_Builder.h Lokace/Hlavicka/Lokace_Director.cpp Lokace/Hlavicka/Lokace_Director.h Pozice.h Enemy/Enemy.cpp Enemy/Enemy.h Special_misto_v_lokaci/SpecialMisto.cpp Special_misto_v_lokaci/SpecialMisto.h Lokace/Jednotlive_Buildery/UnnarsBuilder.cpp Lokace/Jednotlive_Buildery/UnnarsBuilder.h Lokace/Jednotlive_Buildery/LozionBuilder.cpp Lokace/Jednotlive_Buildery/LozionBuilder.h Lokace/Jednotlive_Buildery/SaterBuilder.cpp Lokace/Jednotlive_Buildery/SaterBuilder.h Lokace/Jednotlive_Buildery/CodaphusBuilder.cpp Lokace/Jednotlive_Buildery/CodaphusBuilder.h Lokace/Jednotlive_Buildery/UrutaBuilder.cpp Lokace/Jednotlive_Buildery/UrutaBuilder.h Lokace/Jednotlive_Buildery/AviliaBuilder.cpp Lokace/Jednotlive_Buildery/AviliaBuilder.h Lokace/Jednotlive_Buildery/OrusBuilder.cpp Lokace/Jednotlive_Buildery/OrusBuilder.h UI.cpp UI.h Items/Items.cpp Items/Items.h Items/Zbran.cpp Items/Zbran.h Items/Armor.cpp Items/Armor.h Items/Booster.cpp Items/Booster.h)
